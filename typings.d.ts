@@ -14,7 +14,7 @@ interface Todo{
     $createdAt: string;
     Title: string;
     Status: TypedColumn;
-    image?: string;
+    image?: Image;
 }
 
 interface Image {
